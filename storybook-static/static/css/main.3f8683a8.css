@@ -1,0 +1,90 @@
+.styles_button__q86Gx {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  display: inline-flex;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+          user-select: none;
+  padding: 0.375em 0.75em;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  font-size: 100%;
+}
+
+.styles_button__q86Gx:focus {
+  box-shadow: rgba(0, 109, 255, 0.4) 0px 0px 0px 0.2em;
+  position: relative;
+  z-index: 2;
+}
+
+.styles_dialog__Ob4iD {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 28px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 0.25rem;
+  padding: 1em;
+  max-height: calc(100vh - 56px);
+  outline: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.25);
+  color: rgb(33, 33, 33);
+  z-index: 999;
+}
+
+.styles_dialog__Ob4iD:focus {
+  box-shadow: rgba(0, 109, 255, 0.5) 0px 0px 0px 0.2em;
+}
+
+.styles_dialogDisclosure__Ud-\+G {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  display: inline-flex;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+          user-select: none;
+  padding: 0.375em 0.75em;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 109, 255);
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  font-size: 100%;
+}
+
+.styles_dialogDisclosure__Ud-\+G:focus {
+  box-shadow: rgba(0, 109, 255, 0.4) 0px 0px 0px 0.2em;
+  position: relative;
+  z-index: 2;
+}
+
+
+/*# sourceMappingURL=main.3f8683a8.css.map*/

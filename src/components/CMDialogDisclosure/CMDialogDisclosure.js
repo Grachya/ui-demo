@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const CMDialogDisclosure = ({
   label,
   handleClick,
-  backgroundColor = "blue",
+  backgroundColor = "#722362",
   ...rest
 }) => {
   const style = {

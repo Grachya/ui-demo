@@ -3,7 +3,7 @@ import CMDialogDisclosure from "../components/CMDialogDisclosure/CMDialogDisclos
 import { useDialogState } from "reakit/Dialog";
 
 export default {
-  title: "CMDialog",
+  title: "Dialog",
   component: CMDialog,
   argTypes: { handleClick: { action: "handleClick" } },
   parameters: {
@@ -35,8 +35,7 @@ const Template = (args) => {
 }
 
 
-export const Dialog = Template.bind({});
-Dialog.args = {
+export const MainDialog = Template.bind({});
+MainDialog.args = {
   label:"Open dialog",
-  backgroundColor: "blue",
 };

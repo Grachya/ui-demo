@@ -1,7 +1,7 @@
 import CMButton from "../components/CMButton/CMButton";
 
 export default {
-  title: "CMButton",
+  title: "Button",
   component: CMButton,
   argTypes: { handleClick: { action: "handleClick" } },
   parameters: {
@@ -15,27 +15,31 @@ export default {
 
 const Template = (args) => <CMButton {...args} ></CMButton>;
 
-export const Md = Template.bind({});
-Md.args = {
+export const Primary = Template.bind({});
+Primary.args = {
+  kind: "primary",
   label:"Press me",
   size: "md",
 };
 
-export const Lg = Template.bind({});
-Lg.args = {
+export const Secondary = Template.bind({});
+Secondary.args = {
+  kind: "secondary",
   label:"Press me",
-  size: "lg",
+  size: "md",
 };
 
-export const Sm = Template.bind({});
-Sm.args = {
+export const PrimaryWithIcon = Template.bind({});
+PrimaryWithIcon.args = {
+  isIcon: true,
+  kind: "primary",
   label:"Press me",
-  size: "sm",
-};  
-
-export const LongLabel = Template.bind({});
-LongLabel.args = {
-  label:"Long looong very long label",
   size: "md",
-  backgroundColor: 'red',
+};
+
+export const OnlyIcon = Template.bind({});
+OnlyIcon.args = {
+  isIcon: true,
+  kind: "primary",
+  size: "md",
 };
